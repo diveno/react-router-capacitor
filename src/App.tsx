@@ -2,7 +2,6 @@ import { NavLink } from "react-router";
 import "./App.css";
 import capacitorLogo from "./assets/capacitor.svg";
 import reactLogo from "./assets/react.svg";
-import githubLogo from "/github.svg";
 import viteLogo from "/vite.svg";
 
 function App() {
@@ -58,21 +57,6 @@ function App() {
         <NavLink to="/contact" end>
           Contact us
         </NavLink>
-        <p></p>
-        <div className="flex items-center">
-          <a href="https://github.com/diveno" target="_blank">
-            <img
-              src={githubLogo}
-              className="react"
-              alt="Github logo"
-              width={"14px"}
-              height={"14px"}
-            />
-          </a>
-          <a href="https://github.com/diveno" className="pl-1">
-            Github
-          </a>
-        </div>
       </div>
     </>
   );
