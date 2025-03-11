@@ -5,9 +5,9 @@ function EditNews() {
 
   return (
     <>
-      <p className="read-the-docs">Modifica news {news}</p>
+      <p className="read-the-docs text-3xl font-bold pb-4">Edit news {news}</p>
       <NavLink to={`/news/${news}`} end>
-        Torna al dettaglio
+        Back to detail
       </NavLink>
     </>
   );
