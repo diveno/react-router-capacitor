@@ -48,7 +48,14 @@ function App() {
           />
         </a>
       </div>
-      <h1 className="pb-4">Vite + React + Capacitor</h1>
+      <div className="flex flex-col pb-4">
+        <h1 className="pb-4">Vite + React + Capacitor</h1>
+        <p>
+          Welcome to this test project! Here's a little example of a Vite+React
+          <br />
+          application with Capacitor where I added React Router. Enjoy 😊
+        </p>
+      </div>
       <div className="flex flex-col items-center gap-y-2">
         <NavLink to="/news" end>
           News list
