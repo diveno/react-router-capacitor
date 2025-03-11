@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">vite-project</string>
+    <string name="title_activity_main">vite-project</string>
+    <string name="package_name">com.viteproject.app</string>
+    <string name="custom_url_scheme">com.viteproject.app</string>
+</resources>
